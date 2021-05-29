@@ -221,8 +221,8 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100vw;
-  height: 100vh;
+  width: 848px;
+  height: 480px;
   background: url('../img/hero-bg.mp4') top center;
   background-size: cover;
 }
