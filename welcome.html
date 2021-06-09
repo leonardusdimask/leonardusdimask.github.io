@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Background Video</title>
+    <style media="screen">
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: sans-serif;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #333;
+        overflow-x: hidden;
+      }
+      .v-header {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        color: #fff;
+      }
+      .container {
+        max-width: 960px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: auto;
+        text-align: center;
+      }
+      .fullscreen-video-wrap {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+      }
+      .fullscreen-video-wrap video {
+        min-width: 100%;
+        min-height: 100%;
+      }
+      .header-overlay {
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #225470;
+        z-index: 1;
+        opacity: 0.85;
+      }
+      .header-content {
+        z-index: 2;
+      }
+      .header-content h1 {
+        font-size: 50px;
+        margin-bottom: 0;
+      }
+      .header-content p {
+        font-size: 1.5rem;
+        display: block;
+        padding-bottom: 2rem;
+      }
+      .btn {
+        background: #34b3a0;
+        color: #fff;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        text-decoration: none;
+      }
+      .section {
+        padding: 20px 0;
+      }
+      .section-b {
+        background: #333;
+        color: #fff;
+      }
+
+      @media (max-width: 960px) {
+        .container {
+          padding-left: 3rem;
+          padding-right: 3rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="v-header container">
+      <div class="fullscreen-video-wrap">
+        <video src="hero-bg.mp4" autoplay loop="true" poster="youtube.jpg"></video>
+      </div>
+      <div class="header-overlay"></div>
+      <div class="header-content">
+        <h1>Hello Everyone</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariat
+        </p>
+        <a href="index.html" class="btn">Read More</a>
+      </div>
+    </header>
+
+    <section class="section section-a">
+      <div class="container">
+        <h1>Section A</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-b">
+      <div class="container">
+        <h1>Section B</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
