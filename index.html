@@ -75,9 +75,13 @@
       <a href="contactme.html" id="myBtn">Form Contact Me</a>
     </div>
     <button onclick="myFunction()">Pause</button>
+    <button onclick="myMusik()">musik</button>
 
     <script>
       var video = document.getElementById('myVideo');
+      var btn = document.getElementById('myBtn');
+
+      var audio = document.getElementById('myVideo');
       var btn = document.getElementById('myBtn');
 
       function myFunction() {
@@ -86,6 +90,16 @@
           btn.innerHTML = 'Website Portofolio';
         } else {
           video.pause();
+          btn.innerHTML = 'Website Portofolio';
+        }
+      }
+
+      function myMusik() {
+        if (audio.paused) {
+          audio.play();
+          btn.innerHTML = 'Website Portofolio';
+        } else {
+          audio.pause();
           btn.innerHTML = 'Website Portofolio';
         }
       }
