@@ -59,7 +59,7 @@
   border-radius: 0.5rem;
   animation: infinite alternate rainbow-fill var(--duration) ease-in-out;
   box-sizing: border-box;
-  margin: auto x auto;
+  margin: auto;
   display: flex;
   z-index: 9999;
 }
