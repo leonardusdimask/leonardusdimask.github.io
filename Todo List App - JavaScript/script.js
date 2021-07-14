@@ -67,7 +67,14 @@ function deleteTask(index) {
 
 // delete all tasks function
 deleteAllBtn.onclick = () => {
-  listArray = []; //empty the array
+  let getLocalStorageData = localStorage.getItem('New Todo'); //getting localstorage
+  if (getLocalStorageData == null) {
+    //if localstorage has no data
+    listArray = []; //create a blank array
+  } else {
+    listArray = JSON.parse(getLocalStorageData); //transforming json string into a js object
+    listArray = []; //create a blank array
+  }
   localStorage.setItem('New Todo', JSON.stringify(listArray)); //set the item in localstorage
   showTasks(); //call the showTasks function
 };
