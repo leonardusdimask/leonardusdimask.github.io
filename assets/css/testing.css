@@ -336,6 +336,10 @@
 
 .navbar-light .navbar-brand {
   color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: block;
 }
 .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-brand:focus {
@@ -382,6 +386,10 @@
 
 .navbar-dark .navbar-brand {
   color: #fff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: block;
 }
 .navbar-dark .navbar-brand:hover,
 .navbar-dark .navbar-brand:focus {
@@ -1781,9 +1789,10 @@
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
     background: #000 !important;
-    position: relative;
-    top: 0;
-    padding: 10px 15px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: block;
   }
 }
 .ftco-navbar-light .navbar-brand {
