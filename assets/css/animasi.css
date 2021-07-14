@@ -46,15 +46,21 @@
 .rainbow-marker-loader {
   display: block;
   position: fixed;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  opacity: 1;
   transition: all 1.5s 2s ease-in-out;
   border: 0.5rem solid var(--color-crayon);
   border-radius: 0.5rem;
   animation: infinite alternate rainbow-fill var(--duration) ease-in-out;
   box-sizing: border-box;
+  margin: auto;
+  display: flex;
   z-index: 9999;
 }
 
