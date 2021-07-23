@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
 body {
   background-color: #141019;
   background: radial-gradient(at 50% -20%, #908392, #0d060e) fixed;
@@ -6,23 +8,19 @@ body {
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3vw;
-  color: #ffeba7;
-  -webkit-text-stroke: 2px #ffeba7;
-  text-shadow: 2px #ffeba7;
-  -webkit-text-fill-color: transparent;
-  text-emphasis-color: transparent;
-  color: transparent;
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffeba7, 0 0 15px #ffeba7, 0 0 20px #ffeba7, 0 0 40px #ffeba7, 0 0 60px #ffeba7, 0 0 10px #f5f6fa, 0 0 98px #ffeba7;
+  text-align: center;
+  animation: neonEffect 12s infinite;
   text-align: center;
 }
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1vw;
-  color: #ffeba7;
-  -webkit-text-stroke: 2px #ffeba7;
-  text-shadow: 2px #ffeba7;
-  -webkit-text-fill-color: transparent;
-  text-emphasis-color: transparent;
-  color: transparent;
+  color: #000000;
+  text-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff, 0 0 60px #ffffff, 0 0 10px #f5f6fa, 0 0 98px #ffffff;
+  text-align: center;
+  animation: neonEffect 12s infinite;
   text-align: center;
 }
 
