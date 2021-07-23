@@ -12,22 +12,20 @@ h1 {
   -webkit-text-fill-color: transparent;
   text-emphasis-color: transparent;
   color: transparent;
+  text-align: center;
 }
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1vw;
   color: #ffeba7;
   -webkit-text-stroke: 2px #ffeba7;
-  text-rendering: 2px #ffeba7;
+  text-shadow: 2px #ffeba7;
   -webkit-text-fill-color: transparent;
-  border-inline-color: transparent;
+  text-emphasis-color: transparent;
   color: transparent;
+  text-align: center;
 }
 
-.h3 span {
-  color: #ff5722;
-  font-size: 28px;
-}
 #handboy {
   animation: swing ease-in-out 1.3s infinite alternate;
   transform-origin: 98% 98%;
