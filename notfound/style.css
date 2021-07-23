@@ -8,9 +8,9 @@ h1 {
   font-size: 3vw;
   color: #ffeba7;
   -webkit-text-stroke: 2px #ffeba7;
-  text-stroke: 2px #ffeba7;
+  text-shadow: 2px #ffeba7;
   -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
+  text-emphasis-color: transparent;
   color: transparent;
 }
 h2 {
@@ -18,9 +18,9 @@ h2 {
   font-size: 1vw;
   color: #ffeba7;
   -webkit-text-stroke: 2px #ffeba7;
-  text-stroke: 2px #ffeba7;
+  text-rendering: 2px #ffeba7;
   -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
+  border-inline-color: transparent;
   color: transparent;
 }
 
