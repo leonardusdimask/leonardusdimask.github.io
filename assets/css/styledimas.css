@@ -37,6 +37,7 @@ h1{
   font-size: 7vw;
   line-height: 1;
   color: #ffeba7;
+  text-shadow: 0 0 5px #ffeba7, 0 0 15px #ffeba7, 0 0 20px #ffeba7, 0 0 40px #ffeba7, 0 0 60px #ffeba7, 0 0 10px #f5f6fa, 0 0 98px #ffeba7;
   text-align: center;
   -webkit-text-stroke: 2px #ffeba7;
   text-stroke: 2px #ffeba7;
