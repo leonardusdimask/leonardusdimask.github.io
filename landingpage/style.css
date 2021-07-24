@@ -27,9 +27,13 @@ header {
 }
 
 header .logo {
-  color: #fff;
+  text-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff, 0 0 60px #ffffff, 0 0 10px #f5f6fa, 0 0 98px #ffffff;
+  text-align: center;
+  animation: neonEffect 12s infinite;
+  color: rgb(0, 0, 0);
   text-transform: uppercase;
   cursor: pointer;
+  text-decoration: none;
 }
 .toggle {
   position: relative;
