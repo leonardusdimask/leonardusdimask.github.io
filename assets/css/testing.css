@@ -1,3 +1,7 @@
+/* Start https://www.cursors-4u.com */
+* {
+  cursor: url(https://cur.cursors-4u.net/cursors/cur-4/cur330.cur), auto !important;
+} /* End https://www.cursors-4u.com */
 .navbar {
   position: fixed;
   left: 0;
@@ -32,10 +36,17 @@
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  font-weight: bold;
+  text-align: center;
+  animation: neonEffect 12s infinite;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: dashed;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
+  text-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff, 0 0 60px #ffffff, 0 0 10px #169cdb, 0 0 98px #169cdb;
 }
 
 .navbar-nav {
@@ -1826,7 +1837,7 @@
   opacity: 1 !important;
 }
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-  color: #fc7fb2;
+  color: #169cdb;
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
@@ -1855,12 +1866,12 @@
 }
 .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu .dropdown-item:hover,
 .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu .dropdown-item:focus {
-  background: #fc7fb2;
+  background: #169cdb;
   color: #fff;
 }
 .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
   color: #fff;
-  background: #fc7fb2;
+  background: #169cdb;
   border-radius: 0px;
 }
 @media (max-width: 767.98px) {
@@ -1872,12 +1883,12 @@
 @media (max-width: 991.98px) {
   .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
     color: #fff;
-    background: #fc7fb2;
+    background: #169cdb;
     border-radius: 4px;
   }
 }
 .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-  color: #fc7fb2;
+  color: #169cdb;
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
@@ -1908,8 +1919,8 @@
   color: #4d4d4d;
 }
 .social-media p a:hover {
-  background: #fc7fb2;
-  border-color: #fc7fb2;
+  background: #169cdb;
+  border-color: #169cdb;
 }
 .social-media p a:hover span {
   color: #fff;
