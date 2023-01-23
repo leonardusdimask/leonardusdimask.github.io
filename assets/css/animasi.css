@@ -1,7 +1,7 @@
 :root {
   /* animations constants */
   --steps: 10;
-  --saturation: 80%;
+  --saturation: -1%;
   --lightness: 60%;
   --hue-offset: 320;
   --duration: 5000ms;
@@ -21,7 +21,7 @@
   --color-crayon: #202036;
 
   /* build some backgrounds */
-  --bg-01-a: no-repeat left 0% top / 11% 0% linear-gradient(to right, var(--color-01), var(--color-02));
+  --bg-01-a: no-repeat left 0% top / 11% 0% linear-gradient(to right, var(--color-02), var(--color-02));
   --bg-01-b: no-repeat left 0% top / 11% 100% linear-gradient(to right, var(--color-01), var(--color-02));
   --bg-02-a: no-repeat left 11.11% bottom / 11% 0% linear-gradient(to right, var(--color-02), var(--color-03));
   --bg-02-b: no-repeat left 11.11% bottom / 11% 100% linear-gradient(to right, var(--color-02), var(--color-03));
